@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.container {
+  height: 99vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: whitesmoke;
+  gap: 1rem;
+}
+
+.app__title {
+  flex-wrap: wrap;
+}
+
+.funform {
+  width: min-content;
+  background-color: #fff;
+  padding: 2rem;
+  border-radius: 5px;
+}
+
+.funform > * {
+  margin-bottom: 2rem;
+}
+
+.funform__input {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.input__box {
+  padding: 10px 20px;
+}
+
+.input__btn {
+  padding: 10px 20px;
+  background-color: #4285f5;
+  border: none;
+  border-radius: 2px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.dodge--left {
+  animation-name: dodge-left;
+  animation-duration: 0.5s;
+  margin-left: 135px;
+}
+
+.dodge--right {
+  animation-name: dodge-right;
+  animation-duration: 0.5s;
+  margin-right: 135px;
+}
+
+@keyframes dodge-left {
+  from {
+    margin-left: 0px;
+  }
+  to {
+  }
+}
+
+@keyframes dodge-right {
+  from {
+    margin-right: 0px;
+  }
+  to {
+  }
+}
