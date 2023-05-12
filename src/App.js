@@ -61,7 +61,7 @@ export default function App() {
 
   return (
     <div className="app container">
-      <h2 className="app__title">FunForm</h2>
+      <h2 className="app__title">APP TITLE</h2>
       <form className="funform" onSubmit={handleSubmit}>
         <h4 className="funform__hint">{formHint}</h4>
         <div className="funform__input">
